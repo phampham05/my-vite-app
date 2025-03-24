@@ -60,20 +60,5 @@ export default tseslint.config({
 Đây là một thay đổi để kiểm tra quy trình CI/CD.
 
 
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-
-// https://vitejs.dev/config/
-export default defineConfig({
-  plugins: [react()],
-  build: {
-    rollupOptions: {
-      // Thêm định nghĩa global để tránh lỗi crypto
-      define: {
-        'global': {},
-        'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV)
-      }
-    }
-  }
-})## Thay đổi thử nghiệm
+## Thay đổi thử nghiệm
 Đây là một thay đổi để kiểm tra quy trình CI/CD.
