@@ -5,12 +5,14 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   build: {
+    // Tắt SSR
+    ssr: false,
+    // Thêm các tùy chọn khác
+    commonjsOptions: {
+      transformMixedEsModules: true
+    },
     rollupOptions: {
-      // Thêm định nghĩa global để tránh lỗi crypto
-      define: {
-        'global': {},
-        'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV)
-      }
+      external: ['crypto']
     }
   }
 })

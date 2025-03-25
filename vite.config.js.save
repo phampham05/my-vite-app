@@ -1,0 +1,4 @@
+git add vite.config.js
+git commit -m "Fix: Cập nhật vite.config.js để khắc phục lỗi crypto"
+git push origin main
+
