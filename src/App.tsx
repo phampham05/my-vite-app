@@ -37,7 +37,7 @@
 
 
 
-import React from 'react';
+// Không cần khai báo 'import React' nếu bạn chỉ sử dụng JSX trong React 17+
 import './App.css';
 
 const App = () => {
@@ -68,4 +68,5 @@ const App = () => {
 };
 
 export default App;
+
 
