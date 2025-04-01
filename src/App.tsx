@@ -37,36 +37,29 @@
 
 
 
-// Không cần khai báo 'import React' nếu bạn chỉ sử dụng JSX trong React 17+
+import React from "react";
 import './App.css';
 
 const App = () => {
   return (
     <div className="app-container">
       <header className="app-header">
-        <h1 className="app-title">Chào Mừng Bạn Đến Với Ứng Dụng Của Tôi!</h1>
-        <p className="app-description">
-          Đây là một ví dụ về một ứng dụng React đẹp mắt với CSS hiện đại.
-        </p>
-        <button className="cta-button">Bắt đầu ngay</button>
+        <h1>Welcome to My React App</h1>
+        <p>Let’s build something amazing together!</p>
       </header>
       <main className="app-main">
-        <section className="feature">
-          <h2>Chức Năng Nổi Bật</h2>
-          <p>Ứng dụng này hỗ trợ các tính năng đặc biệt giúp bạn tiết kiệm thời gian.</p>
-        </section>
-        <section className="feature">
-          <h2>Giao Diện Người Dùng Thân Thiện</h2>
-          <p>Chúng tôi luôn chú trọng đến trải nghiệm người dùng với thiết kế tinh tế và dễ sử dụng.</p>
-        </section>
+        <h2>Features</h2>
+        <ul>
+          <li>Responsive Design</li>
+          <li>Interactive Components</li>
+          <li>Modern UI/UX</li>
+        </ul>
       </main>
       <footer className="app-footer">
-        <p>&copy; 2025 Ứng Dụng Của Tôi. Tất cả quyền lợi được bảo lưu.</p>
+        <p>&copy; 2025 My React App. All rights reserved.</p>
       </footer>
     </div>
   );
 };
 
 export default App;
-
-
