@@ -38,7 +38,7 @@
 
 
 // src/App.tsx
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './App.css'; // Đảm bảo file CSS được nhập vào đây
 
 const App = () => {
