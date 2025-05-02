@@ -39,7 +39,7 @@ on:
   push:
     branches: [ main ]
   schedule:
-    - cron: '0 2 * * *'  # Chạy lúc 2 giờ sáng UTC hàng ngày
+    - cron: '0 19 * * *'  # Chạy lúc 2 giờ sáng UTC hàng ngày
 
 jobs:
   deploy:

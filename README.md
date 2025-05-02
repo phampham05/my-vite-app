@@ -53,7 +53,3 @@ export default tseslint.config({
 })
 ```
 
-
-
-##Thay doi
-ktr dat lich
